@@ -1,0 +1,408 @@
+{
+  "knowledge": {
+    "IMP-RB": {
+      "code": "IMP-RB",
+      "unit": "PSI",
+      "description": "Presión de la Bomba de Combustible - Banco Derecho",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "0–35 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "35–40 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">40 psi"
+        }
+      }
+    },
+    "IMP-LB": {
+      "code": "IMP-LB",
+      "unit": "PSI",
+      "description": "Presión de la Bomba de Combustible - Banco Izquierdo",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "0–35 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "35–40 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">40 psi"
+        }
+      }
+    },
+    "IMT-LBF": {
+      "code": "IMT-LBF",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Izquierdo - Frente",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "IMT-LBM": {
+      "code": "IMT-LBM",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Izquierdo - Medio",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "IMT-LBR": {
+      "code": "IMT-LBR",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Izquierdo - Reverso",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "IMT-RBF": {
+      "code": "IMT-RBF",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Derecho - Frente",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "IMT-RBM": {
+      "code": "IMT-RBM",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Derecho - Medio",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "IMT-RBR": {
+      "code": "IMT-RBR",
+      "unit": "°F",
+      "description": "Temperatura de Admisión - Banco Derecho - Reverso",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "≤140 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "140–158 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">158 °F"
+        }
+      }
+    },
+    "Engine Turbocharger 1 Compressor Intake Temperature": {
+      "code": "Engine Turbocharger 1 Compressor Intake Temperature",
+      "unit": "°C",
+      "description": "",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "5–40 °C"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "40–50 °C"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">50 °C"
+        }
+      }
+    },
+    "Coolant Pressure": {
+      "code": "Coolant Pressure",
+      "unit": "PSI",
+      "description": "Presión del Refrigerante",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "15–45 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "12–15 psi o 45–55 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "<12 psi o >55 psi"
+        }
+      }
+    },
+    "Coolant Temperature": {
+      "code": "Coolant Temperature",
+      "unit": "°F",
+      "description": "Temperatura del Refrigerante",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "180–190 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "190–195 °F (precaución)"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "≥195 °F (crítico ≥200 °F)"
+        }
+      }
+    },
+    "Crankcase Pressure": {
+      "code": "Crankcase Pressure",
+      "unit": "in-H2O",
+      "description": "Presión de la Caja de Cárter",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "1050–1200 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "1200–1215 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "<1050 °F | >1215 °F"
+        }
+      }
+    },
+    "Engine Air Filter 1-6 Differential Pressure": {
+      "code": "Engine Air Filter 1-6 Differential Pressure",
+      "unit": "kPa",
+      "description": "Presión Diferencial de los Filtros de Aire",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "0–3.0 kPa"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "3.0–4.0 kPa"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">4.0 kPa"
+        }
+      }
+    },
+    "Fuel Delivery Pressure": {
+      "code": "Fuel Delivery Pressure",
+      "unit": "PSI",
+      "description": "Presión de Entrega de Combustible",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "96–120 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "80–96 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "<80 psi o >55 psi"
+        }
+      }
+    },
+    "Injector Metering": {
+      "code": "Injector Metering",
+      "unit": "PSI",
+      "description": "Medición de Inyectores",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "27500–30000 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "26000–27000 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "<26000 psi"
+        }
+      }
+    },
+    "Fuel Temperature": {
+      "code": "Fuel Temperature",
+      "unit": "°F",
+      "description": "Temperatura del Combustible",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "1–7 kPa (ideal 1–4 kPa)"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "7–9 kPa"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">9 kPa o valores en 0 kPa recurrentes"
+        }
+      }
+    },
+    "Engine Oil Temperature": {
+      "code": "Engine Oil Temperature",
+      "unit": "°F",
+      "description": "Temperatura del Aceite del Motor",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "180–220 °F"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "220–235 °F"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">235 °F"
+        }
+      }
+    },
+    "Oil Differential Pressure": {
+      "code": "Oil Differential Pressure",
+      "unit": "PSI",
+      "description": "Presión Diferencial del Aceite",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "0–9 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "9–14 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": ">14 psi"
+        }
+      }
+    },
+    "Rifle Oil Pressure": {
+      "code": "Rifle Oil Pressure",
+      "unit": "PSI",
+      "description": "Presión del Aceite del Rifle",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "31–75 psi en caliente"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "25–31 psi o 75–85 psi"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "<25 psi o >85 psi"
+        }
+      }
+    },
+    "Fuel Pump Oil Pressure": {
+      "code": "Fuel Pump Oil Pressure",
+      "unit": "PSI",
+      "description": "Presión del Aceite de la Bomba de Combustible",
+      "ranges": {
+        "verde": {
+          "label": "Normal",
+          "value": "En paralelo con Rifle Oil Pressure (PSI), diferencia ≤35 psi"
+        },
+        "amarillo": {
+          "label": "Observado",
+          "value": "Diferencia puntual entre 20–35 psi respecto a Rifle Oil Pressure (PSI)"
+        },
+        "rojo": {
+          "label": "Crítico",
+          "value": "Diferencia >35 psi sostenida respecto a Rifle Oil Pressure (PSI)"
+        }
+      }
+    }
+  },
+  "synonyms": {
+    "presion bomba combustible banco derecho": "IMP-RB",
+    "presion bomba combustible banco izquierdo": "IMP-LB",
+    "temperatura admision banco izquierdo frente": "IMT-LBF",
+    "temperatura admision banco izquierdo medio": "IMT-LBM",
+    "temperatura admision banco izquierdo reverso": "IMT-LBR",
+    "temperatura admision banco derecho frente": "IMT-RBF",
+    "temperatura admision banco derecho medio": "IMT-RBM",
+    "temperatura admision banco derecho reverso": "IMT-RBR",
+    "temperatura compresor turbo 1": "Engine Turbocharger 1 Compressor Intake Temperature",
+    "presion refrigerante": "Coolant Pressure",
+    "temperatura refrigerante": "Coolant Temperature",
+    "presion carter": "Crankcase Pressure",
+    "temperatura gases escape": "EGT-01",
+    "presion diferencial filtro aire": "Engine Air Filter 1-6 Differential Pressure",
+    "presion entrega combustible": "Fuel Delivery Pressure",
+    "medicion inyectores": "Injector Metering",
+    "temperatura combustible": "Fuel Temperature",
+    "presion diferencial filtro combustible": "Engine Fuel Filter (Suction Side) Differential Pressure (Advanced Resolution dp5)",
+    "temperatura aceite motor": "Engine Oil Temperature",
+    "presion diferencial aceite": "Oil Differential Pressure",
+    "presion aceite rifle": "Rifle Oil Pressure",
+    "presion aceite bomba combustible": "Fuel Pump Oil Pressure"
+  }
+}
