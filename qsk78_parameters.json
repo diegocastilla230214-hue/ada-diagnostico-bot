@@ -1,0 +1,354 @@
+[
+    {
+        "parameter": "IMP-RB (PSI) (Presión de la Bomba de Combustible - Banco Derecho):",
+        "ranges": {
+            "Normal": "0–35 psi",
+            "Observed": "35–40 psi",
+            "Critical": ">40 psi"
+        }
+    },
+    {
+        "parameter": "IMP-LB (PSI) (Presión de la Bomba de Combustible - Banco Izquierdo):",
+        "ranges": {
+            "Normal": "0–35 psi",
+            "Observed": "35–40 psi",
+            "Critical": ">40 psi"
+        }
+    },
+    {
+        "parameter": "IMT-LBF (°F) (Temperatura de Admisión - Banco Izquierdo - Frente):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "IMT-LBM (°F) (Temperatura de Admisión - Banco Izquierdo - Medio):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "IMT-LBR (°F) (Temperatura de Admisión - Banco Izquierdo - Reverso):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "IMT-RBF (°F) (Temperatura de Admisión - Banco Derecho - Frente):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "IMT-RBM (°F) (Temperatura de Admisión - Banco Derecho - Medio):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "IMT-RBR (°F) (Temperatura de Admisión - Banco Derecho - Reverso):",
+        "ranges": {
+            "Normal": "≤140 °F",
+            "Observed": "140–158 °F",
+            "Critical": ">158 °F"
+        }
+    },
+    {
+        "parameter": "Engine Turbocharger 1 Compressor Intake Temperature (°C):",
+        "ranges": {
+            "Normal": "5–40 °C",
+            "Observed": "40–50 °C",
+            "Critical": ">50 °C"
+        }
+    },
+    {
+        "parameter": "Coolant Pressure (PSI) (Presión del Refrigerante):",
+        "ranges": {
+            "Normal": "15–45 psi",
+            "Observed": "12–15 psi o 45–55 psi",
+            "Critical": "<12 psi o >55 psi"
+        }
+    },
+    {
+        "parameter": "Coolant Temperature (°F) (Temperatura del Refrigerante):",
+        "ranges": {
+            "Normal": "180–190 °F",
+            "Observed": "190–195 °F (precaución)",
+            "Critical": "≥195 °F (crítico ≥200 °F)"
+        }
+    },
+    {
+        "parameter": "Crankcase Pressure (in-H2O) (Presión de la Caja de Cárter):",
+        "ranges": {
+            "Normal": "0–4 in-H2O",
+            "Observed": "4–10 in-H2O",
+            "Critical": ">10 in-H2O"
+        }
+    },
+    {
+        "parameter": "EGT-01 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-2 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-3 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-4 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-5 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-6 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-7 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-8 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-9 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-10 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-11 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-12 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-13 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-14  (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-15 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-16 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-17 (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "EGT-18  (Temperaturas de los Gases de Escape):",
+        "ranges": {
+            "Normal": "1050–1200 °F",
+            "Observed": "1200–1215 °F",
+            "Critical": "<1050 °F | >1215 °F"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 1 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 2 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 3 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 4 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 5 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Engine Air Filter 6 Differential Pressure (kPa) (Presión Diferencial de los Filtros de Aire):",
+        "ranges": {
+            "Normal": "0–3.0 kPa",
+            "Observed": "3.0–4.0 kPa",
+            "Critical": ">4.0 kPa"
+        }
+    },
+    {
+        "parameter": "Fuel Delivery Pressure (PSI) (Presión de Entrega de Combustible):",
+        "ranges": {
+            "Normal": "96–120 psi",
+            "Observed": "80–96 psi",
+            "Critical": "<80 psi o >55 psi"
+        }
+    },
+    {
+        "parameter": "Injector Metering (PSI) (Medición de Inyectores):",
+        "ranges": {
+            "Normal": "27500–30000 psi",
+            "Observed": "26000–27000 psi",
+            "Critical": "<26000 psi"
+        }
+    },
+    {
+        "parameter": "Fuel Temperature (°F) (Temperatura del Combustible):",
+        "ranges": {
+            "Normal": "70–110 °F",
+            "Observed": "110–130 °F",
+            "Critical": ">130 °F"
+        }
+    },
+    {
+        "parameter": "Engine Fuel Filter (Suction Side) Differential Pressure (Advanced Resolution dp5) (kPa) (Presión Diferencial del Filtro de Combustible):",
+        "ranges": {
+            "Normal": "1–7 kPa (ideal 1–4 kPa)",
+            "Observed": "7–9 kPa",
+            "Critical": ">9 kPa o valores en 0 kPa recurrentes"
+        }
+    },
+    {
+        "parameter": "Engine Oil Temperature (°F) (Temperatura del Aceite del Motor):",
+        "ranges": {
+            "Normal": "180–220 °F",
+            "Observed": "220–235 °F",
+            "Critical": ">235 °F"
+        }
+    },
+    {
+        "parameter": "Oil Differential Pressure (PSI) (Presión Diferencial del Aceite):",
+        "ranges": {
+            "Normal": "0–9 psi",
+            "Observed": "9–14 psi",
+            "Critical": ">14 psi"
+        }
+    },
+    {
+        "parameter": "Rifle Oil Pressure (PSI) (Presión del Aceite del Rifle):",
+        "ranges": {
+            "Normal": "31–75 psi en caliente",
+            "Observed": "25–31 psi o 75–85 psi",
+            "Critical": "<25 psi o >85 psi"
+        }
+    },
+    {
+        "parameter": "Fuel Pump Oil Pressure (PSI) (Presión del Aceite de la Bomba de Combustible):",
+        "ranges": {
+            "Normal": "En paralelo con Rifle Oil Pressure (PSI), diferencia ≤35 psi",
+            "Observed": "Diferencia puntual entre 20–35 psi respecto a Rifle Oil Pressure (PSI)",
+            "Critical": "Diferencia >35 psi sostenida respecto a Rifle Oil Pressure (PSI)"
+        }
+    }
+]
